@@ -1,0 +1,31 @@
+{
+  "name": "Codespaces .NET Core Starter",
+  "extensions": [
+    // "coenraads.bracket-pair-colorizer-2",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "github.vscode-pull-request-github",
+    "jongrant.csharpsortusings",
+    "k--kato.docomment",
+    "kreativ-software.csharpextensions",
+    "mhutchie.git-graph",
+    "ms-azuretools.vscode-azurefunctions",
+    "ms-azuretools.vscode-docker",
+    "ms-dotnettools.csharp",
+    "ms-vscode.powershell",
+    "ms-vsliveshare.vsliveshare",
+    // "vscode-icons-team.vscode-icons",
+    "visualstudioexptteam.vscodeintellicode",
+    "yzhang.markdown-all-in-one"
+  ],
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [5000, 5001, 7071],
+  "settings": {
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "files.exclude": {
+      "**/CODE_OF_CONDUCT.md": true,
+      "**/LICENSE": true
+    }
+  }
+}

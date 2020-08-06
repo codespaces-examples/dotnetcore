@@ -19,7 +19,10 @@ This is an unopinionated, basic environment that should be ready to expand upon 
 * [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh): a delightful community driven framework for managing zsh config.
 * [.NET Core SDK 3.1 LTS](https://dotnet.microsoft.com/download/dotnet-core/3.1?WT.mc_id=codespacesexamples-github-juyoo): a free, cross-platform and open source developer platform for building all types of apps.
 * [Azure Functions Core Tools v3](https://docs.microsoft.com/azure/azure-functions/functions-run-local?tabs=linux%2Ccsharp%2Cbash&WT.mc_id=codespacesexamples-github-juyoo): lets you develop and test your functions on your local computer from the command prompt or terminal.
+* [Docker CE](https://docs.docker.com/engine/install/ubuntu/): runs Docker CLI inside Codespaces.
 * [PowerShell 7](https://docs.microsoft.com/powershell/scripting/how-to-use-docs?view=powershell-7&WT.mc_id=codespacesexamples-github-juyoo): a cross-platform task automation and configuration management framework, consisting of a command-line shell and scripting language.
+
+> **NOTE**: Docker daemon can't be running inside Codespaces. Instead, set `DOCKER_HOST` to access to a remote docker daemon.
 
 
 ### VS Code Extensions ###

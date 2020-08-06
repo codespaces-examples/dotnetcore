@@ -26,6 +26,7 @@ This is an unopinionated, basic environment that should be ready to expand upon 
 
 The following extensions are installed for .NET Core development.
 
+* [Azure Functions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions): quickly create, debug, manage, and deploy serverless apps directly from VS Code.
 * [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp): Included for C# development.
 * [C# Extensions](https://marketplace.visualstudio.com/items?itemName=kreativ-software.csharpextensions): Included to speed up development workflows.
 * [C# Sort Usings](https://marketplace.visualstudio.com/items?itemName=jongrant.csharpsortusings): Included for document formatting.

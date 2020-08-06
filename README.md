@@ -17,13 +17,15 @@ This is an unopinionated, basic environment that should be ready to expand upon 
 * [sudo](https://www.sudo.ws/): the superuser authority delegation tool.
 * [zsh](https://www.zsh.org/): interactive terminal (alternative to `bash`).
 * [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh): a delightful community driven framework for managing zsh config.
-* [.NET Core SDK 3.1 LTS](https://dotnet.microsoft.com/download/dotnet-core/3.1?WT.mc_id=codespacesexamples-github-juyoo): A free, cross-platform and open source developer platform for building all types of apps.
-* [PowerShell 7](https://docs.microsoft.com/powershell/scripting/how-to-use-docs?view=powershell-7&WT.mc_id=codespacesexamples-github-juyoo): PowerShell is a cross-platform task automation and configuration management framework, consisting of a command-line shell and scripting language.
+* [.NET Core SDK 3.1 LTS](https://dotnet.microsoft.com/download/dotnet-core/3.1?WT.mc_id=codespacesexamples-github-juyoo): a free, cross-platform and open source developer platform for building all types of apps.
+* [Azure Functions Core Tools v3](https://docs.microsoft.com/azure/azure-functions/functions-run-local?tabs=linux%2Ccsharp%2Cbash&WT.mc_id=codespacesexamples-github-juyoo): lets you develop and test your functions on your local computer from the command prompt or terminal.
+* [PowerShell 7](https://docs.microsoft.com/powershell/scripting/how-to-use-docs?view=powershell-7&WT.mc_id=codespacesexamples-github-juyoo): a cross-platform task automation and configuration management framework, consisting of a command-line shell and scripting language.
 
 
 ### VS Code Extensions ###
 
-* [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2): An extension colors matching brackets appropriately to enhance code readability.
+The following extensions are installed for .NET Core development.
+
 * [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp): Included for C# development.
 * [C# Extensions](https://marketplace.visualstudio.com/items?itemName=kreativ-software.csharpextensions): Included to speed up development workflows.
 * [C# Sort Usings](https://marketplace.visualstudio.com/items?itemName=jongrant.csharpsortusings): Included for document formatting.
@@ -38,7 +40,11 @@ This is an unopinionated, basic environment that should be ready to expand upon 
 * [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare): collaborative, multi-user remote editing from directly within the editor.
 * [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): All you need to write README.md in Markdown.
 * [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell): This extension provides rich PowerShell language support.
-* [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): An enhancement to the editor UI that gives more visual indicators in the explorer.
+
+The following extensions are intentionally disabled until they support remote server.
+
+* ~~[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2): An extension colors matching brackets appropriately to enhance code readability.~~
+* ~~[vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): An enhancement to the editor UI that gives more visual indicators in the explorer.~~
 
 
 ### Dotfiles ###

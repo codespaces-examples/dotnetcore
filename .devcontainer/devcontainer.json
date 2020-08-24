@@ -2,6 +2,7 @@
   "name": "Codespaces .NET Core Starter",
   "extensions": [
     // "coenraads.bracket-pair-colorizer-2",
+    "cschleiden.vscode-github-actions",
     "donjayamanne.githistory",
     "eamodio.gitlens",
     "editorconfig.editorconfig",

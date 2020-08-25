@@ -1,7 +1,6 @@
 {
   "name": "Codespaces .NET Core Starter",
   "extensions": [
-    // "coenraads.bracket-pair-colorizer-2",
     "cschleiden.vscode-github-actions",
     "donjayamanne.githistory",
     "eamodio.gitlens",
@@ -16,7 +15,6 @@
     "ms-dotnettools.csharp",
     "ms-vscode.powershell",
     "ms-vsliveshare.vsliveshare",
-    // "vscode-icons-team.vscode-icons",
     "visualstudioexptteam.vscodeintellicode",
     "yzhang.markdown-all-in-one"
   ],
